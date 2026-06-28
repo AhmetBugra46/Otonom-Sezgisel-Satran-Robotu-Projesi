@@ -1,0 +1,13 @@
+# Python çöpleri
+__pycache__/
+*.pyc
+*.pyo
+
+# ROS 2 derleme klasörleri (Sadece kaynak kod yüklenir, derlenmiş hali değil)
+build/
+install/
+log/
+
+# İşletim sistemi çöpleri
+.DS_Store
+Thumbs.db
