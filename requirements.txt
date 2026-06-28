@@ -1,0 +1,15 @@
+# HMI (Kullanıcı Arayüzü) Kütüphaneleri
+PyQt6==6.5.0
+PyQt6-Qt6==6.5.0
+PyQt6-sip==13.5.1
+
+# Matematiksel ve Matris İşlemleri (Eğer GameState içinde kullanıyorsan)
+numpy>=1.24.0
+
+# Zamanlama ve Sistem Kütüphaneleri (Python standart kütüphanesidir ama belirtmek iyidir)
+# time
+# copy
+# threading
+
+# UYARI: ROS 2 (rclpy) ve MoveIt 2 (moveit_msgs) kütüphaneleri 
+# 'pip' ile yüklenmez, Ubuntu ortamında ROS 2 Humble kurulumu ile gelir.
